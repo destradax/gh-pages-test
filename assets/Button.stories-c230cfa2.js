@@ -1,0 +1,1 @@
+import{j as e}from"./index-27bea3a1.js";const o=({label:t})=>e("button",{children:t}),n=({label:t})=>e(o,{label:t});n.args={label:"Hello"};typeof window<"u"&&window.document&&window.document.createElement&&document.documentElement.setAttribute("data-storyloaded","");export{n as Default};
