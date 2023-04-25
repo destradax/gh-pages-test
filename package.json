@@ -1,0 +1,35 @@
+{
+  "name": "gh-pages-test",
+  "version": "0.0.1",
+  "description": "Github Pages Test",
+  "module": "./dist/index.js",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "ladle serve",
+    "demo:build": "ladle build",
+    "demo:preview": "ladle preview",
+    "demo:publish": "gh-pages -d demo"
+  },
+  "devDependencies": {
+    "@ladle/react": "^2.9.0",
+    "@types/jest": "29.0.3",
+    "@types/node": "16.11.60",
+    "@types/react": "16.14.0",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.14",
+    "gh-pages": "^5.0.0",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "sass": "1.62.0",
+    "typescript": "^4.9.5",
+    "vite": "^4.2.1",
+    "vite-plugin-dts": "^2.3.0"
+  },
+  "peerDependencies": {
+    "react": "16.x"
+  }
+}
